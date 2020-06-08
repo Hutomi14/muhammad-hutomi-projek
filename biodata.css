@@ -1,0 +1,160 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#header
+{
+    background  : #00ccff;
+    height      : 250px;
+    font-size   : 1.5em;
+    text-align  :center;
+    padding-top : 20px;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+}
+#sidebar
+{
+
+    background  : #99ccff;  
+    float       : left;
+    height      : 350px;
+    width       : 25%; 
+    font-size   : 1.5em;
+    text-align  :center;
+    padding-top : 20px;
+    -webkit-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	-moz-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	background-image: url(img/1.jpeg);
+	background-repeat: no-repeat;
+   
+ 
+}
+.box{
+	height: 335px;
+    width: 300px;
+    margin: 15px;
+    outline: auto;
+}
+#content
+{
+    background  : #4169E1;
+    float       : left;
+    width       : 51%;
+    height      : 330px;
+    font-size   : 1em;
+    color: white;
+  	text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);
+    
+    padding-top : 40px;
+    padding-left: 50px;
+    -webkit-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	-moz-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+
+	
+   
+}
+.segitiga{
+	width: 0px;
+	height: 0px;
+	float       : left;
+	border-bottom: 370px solid #4169E1;
+	/*border-left: 70px solid transparent;*/
+	border-right: 70px solid transparent;
+	margin-left: -25%;
+}
+#bio{
+	float       : left;
+	padding-top: 20px;
+	width       : 80%;
+    height      : 200px;
+    background-color: #F5FFFA;
+    text-align  :center;
+    margin-top : 40px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	-moz-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	box-shadow: 5px 9px 12px 1px rgba(22,38,51,0.31);
+}
+#projek{
+	float       : left;
+	padding-top: 20px;
+	width       : 80%;
+    height      : 500px;
+    background-color: #F5FFFA;
+    text-align  :center;
+    margin-top : 40px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	-moz-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	box-shadow: 5px 9px 12px 1px rgba(22,38,51,0.31);
+}
+#footer
+{
+    background  : #3399ff;
+    clear       : both;
+    padding-top: 10px;
+    font-size   : 0.8em;
+    text-align  :center;
+    height: 30px;
+}
+
+.biodata{
+	width       : 100%;
+	margin-top  : -180px; 
+	padding-bottom: 100px;
+	height: 350px;
+	margin-right: 10%;
+	margin-left : 10%; 
+	
+
+}
+
+a img{
+	height: 30px;
+	width: 30px;
+}
+
+#bio button{
+	background-color: #4169E1;
+	border-radius: 12px;
+	width: 100px;
+	height: 30px;
+	color: white;
+}
+
+#bio button:hover{
+	background-color: #ff0000;
+	
+}
+.content{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #F5FFFA;
+	text-align: center;
+	margin-top: -200px;
+	padding: 50px;
+	margin-bottom: 50px;
+	-webkit-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	-moz-box-shadow: 5px 9px 12px -1px rgba(22,38,51,0.31);
+	box-shadow: 5px 9px 12px 1px rgba(22,38,51,0.31);
+
+}
+.content img{
+	border-radius: 100%; 
+	border: 10px double;
+}
+
+.content table{
+	border-collapse: collapse;
+  	width: 80%;
+  	text-align: left;
+  	padding: 80px;
+  	margin-left: 30%;
+  	margin-top: 5%;
+  	
+}
